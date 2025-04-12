@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Noorani's Recipe Book - Recipe List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Noorani's Kitchen Tales</h1>
+    <p><em>A journey through taste, one recipe at a time</em></p>
+    <nav>
+            <a href="index.html">Home</a> |
+            <a href="add-recipe.html">Add Recipe</a> |
+            <a href="recipe-list.html">Recipe List</a> |
+            <a href="profile.html">Profile</a> 
+    </nav>
+</header>
+<!-- Search Bar -->
+<div class="search-bar">
+    <label for="search"><span>&#128269;</span></label>
+    <input type="text" id="search" name="search" placeholder="Search recipes...">
+  </div>
+
+<!-- Recipe List Section -->
+<section class="recipe-list">
+    <h2>Recipe List</h2>
+    <p>Explore a collection of mouthwatering dishes from various categories! Click on a recipe name to view the full details.</p>
+
+    <!-- Category: Foods -->
+    <section class="category" id="foods">
+        <h3>Foods</h3>
+        <ul>
+            <li><a href="recipe-details.html#recipe-manto">Manto</a></li>
+            <li><a href="recipe-details.html#recipe-ashak">Ashak</a></li>
+            <li><a href="recipe-details.html#recipe-kebab">Kebab</a></li>
+        </ul>
+    </section>
+
+    <!-- Category: Drinks -->
+    <section class="category" id="drinks">
+        <h3>Drinks</h3>
+        <ul>
+            <li><a href="recipe-details.html#recipe--dogh">Dogh</a></li>
+            <li><a href="recipe-details.html#recipe-sheer-chai">Sheer Chai</a></li>
+            <li><a href="recipe-details.html#recipe-sheer-khorma">Sheer Khorma</a></li>
+        </ul>
+    </section>
+
+    <!-- Category: Desserts -->
+    <section class="category" id="desserts">
+        <h3>Desserts</h3>
+        <ul>
+            <li><a href="recipe-details.html#recipe-ferini">Ferini</a></li>
+            <li><a href="recipe-details.html#recipe-baklava">Baklava</a></li>
+        </ul>
+    </section>
+</section>
+<div class="rating">
+    <span>Rate this recipe:</span>
+    <span class="stars">
+      <span data-star="1">&#9734;</span>
+      <span data-star="2">&#9734;</span>
+      <span data-star="3">&#9734;</span>
+      <span data-star="4">&#9734;</span>
+      <span data-star="5">&#9734;</span>
+    </span>
+    <span id="rating-result">(0/5)</span>
+  </div>
+
+
+<footer>
+    <p>&copy; 2025 Noorani's Kitchen. All rights reserved.</p>
+    <div class="social-media">
+        <a href="#" target="_blank">Facebook</a> |
+        <a href="#" target="_blank">Instagram</a> |
+        <a href="#" target="_blank">Twitter</a>
+    </div>
+</footer>
+</body>
+</html>
